@@ -3,6 +3,11 @@
 }
 
 .WeatherForecast-Temperature-min {
+  color: rgb(31, 5, 53);
   opacity: 0.6;
   margin-left: 5px;
+}
+
+.WeatherForecast-temperature-max {
+  color: rgb(31, 5, 53);
 }

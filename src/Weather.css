@@ -1,18 +1,17 @@
 .Weather {
   border: 1px solid #dadde1;
-
+  color: rgb(135, 135, 135);
   padding: 16px;
-
   border-radius: 4px;
   font-family: arial, sans-serif;
-  color: rgb(135, 135, 135);
 }
 
-.Weater h1 {
-  font-size: 24px;
+.Weather h1 {
+  color: rgb(31, 5, 53);
+  font-size: 35px;
   font-weight: 100;
-  margin: 20px 0 0 0;
-  line-height: 29px;
+  margin: 10px 0 10px 0;
+  line-height: 24px;
 }
 
 .Weather ul {
@@ -34,7 +33,6 @@
 }
 
 .Weather .temperature {
-  font-weight: bold;
   color: rgb(33, 33, 33);
   font-size: 60px;
   line-height: 64px;
@@ -48,6 +46,22 @@
   position: relative;
   top: -34px;
   margin-left: 5px;
+}
+
+.WeatherInfo .HumidityColor {
+  color: rgb(31, 5, 53);
+}
+
+.WeatherInfo .WindColor {
+  color: rgb(31, 5, 53);
+}
+
+.WeatherInfo .DateDescription {
+  margin-top: 4px;
+}
+
+.WeatherInfo .InfoDescription {
+  margin: auto;
 }
 
 .WeatherTemperature a {
